@@ -109,40 +109,41 @@ button:active {
     background: #a93226;
 }
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2em;
-    }
-
+@media (max-width: 768px) {
     #board {
-        grid-template-columns: repeat(3, 80px);
-        grid-template-rows: repeat(3, 80px);
-        gap: 8px;
-    }
-
-    @media (max-width: 600px) {
-        #board {
-            width: 90%;
-            height: 90%;
-        }
-
-        .cell {
-            font-size: 1.5rem;
-        }
-
-        button {
-            font-size: 0.9rem;
-        }
+        max-width: 300px;
+        gap: 4px;
     }
 
     .cell {
-        width: 80px;
-        height: 80px;
-        font-size: 2em;
+        font-size: 1.5rem;
     }
 
     button {
-        font-size: 0.9em;
-        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    #message {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #board {
+        max-width: 90%;
+        gap: 3px;
+    }
+
+    .cell {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
+
+    #message {
+        font-size: 0.9rem;
     }
 }
