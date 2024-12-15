@@ -120,6 +120,21 @@ button:active {
         gap: 8px;
     }
 
+    @media (max-width: 600px) {
+        #board {
+            width: 90%;
+            height: 90%;
+        }
+
+        .cell {
+            font-size: 1.5rem;
+        }
+
+        button {
+            font-size: 0.9rem;
+        }
+    }
+
     .cell {
         width: 80px;
         height: 80px;
