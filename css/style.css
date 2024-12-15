@@ -109,7 +109,7 @@ button:active {
     background: #a93226;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 558px) {
     #board {
         max-width: 300px;
         gap: 4px;
@@ -128,7 +128,7 @@ button:active {
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width:559px) {
     #board {
         max-width: 90%;
         gap: 3px;
